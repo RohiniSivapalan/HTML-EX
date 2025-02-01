@@ -1,0 +1,20 @@
+body{
+    background-image:linear-gradient(rgb(98, 213, 252),lightgreen);
+}
+
+div.outer{
+    width:300px;
+    margin:75px auto 0px auto;
+    padding:190px;
+    background-color: yellow;
+}
+div.in{
+    font-family:Verdana;
+    color:white;
+}
+div.inner{
+    font-family:Georgia;
+}   
+
+
+

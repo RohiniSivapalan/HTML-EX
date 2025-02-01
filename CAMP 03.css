@@ -1,0 +1,58 @@
+body{
+    background-color: honeydew;
+    background: url("https://i.pinimg.com/originals/21/2d/7d/212d7d786fb884b2bc8651841a1fb25a.jpg");
+    background-size:280%;
+    background-position: -400px 0px;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+}
+h2{
+    margin-left:65px;
+    font-family :sans-serif;
+    padding:17px;
+}
+div.main{
+    width:400px;
+    margin:75px auto 0px auto;
+    
+}
+div.register{
+    text-align: centre;
+    background-color:rgba(0, 0,0,0.5);
+    width:100%;
+    font-size: 18px;
+    border-radius: 10px;
+    color:black;
+   
+}
+form#register{
+    margin:40px;  
+}
+label{
+    font-family: Cambria;
+}
+input#name{
+    width:90%;
+    border: 2px solid hotpink;
+    border-radius: 3px;
+    padding:4px;
+
+}
+input#submit{
+    background-color:chocolate;
+    text-align: center;
+    cursor: cell;
+    color: darkblue;
+    width:47%;
+    border-radius: 3px;
+    padding:4px;
+    margin-left:65px;
+}
+select#name{
+        width:90%;
+        border: 2px solid hotpink;
+        border-radius: 3px;
+        padding:4px;
+    
+    }

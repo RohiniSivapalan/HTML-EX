@@ -1,0 +1,50 @@
+h1{
+    text-align: center;
+    color: blue;
+    font-family: "Times New Roman";
+    padding-top: 5px;
+    
+}
+*{
+    margin:0px;
+    padding:0px;
+}
+body{
+    /*background-image:url("https://www.thebluediamondgallery.com/wooden-tile/images/billing.jpg");*/
+    background-image: url("https://bpb-us-e1.wpmucdn.com/sites.psu.edu/dist/8/8152/files/2014/11/paying-bills.jpg");
+    background-position: 180px;
+}
+div.main{
+    width:400px;
+    margin:70px auto 0px auto;
+    
+}
+div.cal{
+    width:80%;
+    padding:45px;
+    margin-top: 120px;
+    border-style:solid;
+    border-radius: 2px;
+    background-color: rgb(237, 184, 116);
+    border-width:4px;
+    border-color:black;
+}
+input#submit{
+    background-color:rgba(50, 181, 213, 0.662);
+    text-align:center;
+    cursor: cell;
+    color: darkblue;
+    width:47%;
+    border-radius: 3px;
+    padding:4px;
+    margin-left: 70px;
+    cursor: cell;
+}
+input#bill,#ptip,#tip,#tot{
+    width:220px;
+    border:2px solid slateblue;
+    padding:4px;
+}
+label{
+    font-size:large;
+}

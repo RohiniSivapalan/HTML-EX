@@ -1,0 +1,25 @@
+body{
+    background-color: bisque;
+}
+.main1{
+    flex: 30.33%;
+    height: 480px;
+    padding: 10px;
+    margin: 17px;
+    background-color: #cccccc;
+    text-align: center;
+    border:2px solid darkorange;
+    border-radius: 10px;
+  }
+.main {
+     display: flex;
+     padding-top: 25px;
+  }	
+  p{
+    color:darkorchid;
+    font-family:Georgia;
+  }
+img{
+    width:200px;
+    height:130px;
+}

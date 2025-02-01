@@ -1,0 +1,45 @@
+<html>
+
+<head>
+    <link rel="stylesheet" type="text/css" href="CAMP 04.css">
+<title>Tip Calculator</title>
+<script>
+    function calc()
+    {
+        var b=parseInt(document.getElementById("bill").value);
+        var pt=parseInt(document.getElementById("ptip").value);
+        var t=parseFloat(document.getElementById("tip").value=(pt/100*b));
+        var to=parseFloat(document.getElementById("tot").value=(b+t));
+    }
+</script>
+</head>
+
+<body>
+
+<div class="main">
+    
+<div class="cal">
+<h1>TIP CALCULATOR</h1>
+
+<label>Enter Bill Amount:</label><br>
+<input type="text" id="bill"><br><br>
+
+<label>Enter Percentage Tip:</label><br>
+<input type="text" id="ptip"><br><br>
+
+
+<label>Tip Amount:</label><br>
+<input type="text" id="tip"><br><br>
+
+<label>Total Amount:</label><br>
+<input type="text" id="tot"><br><br>
+
+<input type="submit" value="Submit" id="submit" onClick="calc()">
+</div>
+
+</div>
+
+
+
+</body>
+</html>

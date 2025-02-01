@@ -1,0 +1,55 @@
+body{
+
+    background: url("https://i.pinimg.com/originals/21/2d/7d/212d7d786fb884b2bc8651841a1fb25a.jpg");
+    background-size:280%;
+    background-position: -400px 0px;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+}
+h2{
+    text-align:center;
+    font-family:Verdana;
+    color:white;
+   
+}
+div.main{
+    width:400px;                   /* outer box length*/
+    margin:75px auto 0px auto;     /*distance from screen to outer box*/
+    
+}
+div.register{                         /*outer box*/
+    background-color:rgba(0, 0,0,0.5);
+    width:100%;                   /*horizontal length of the outer box*/
+    font-size: 18px;
+    border-radius: 10px;
+    color:black;
+   
+}
+form#register{
+    margin:47px;                      /*height from sign up to fname and distance from the outer box to inner content*/               
+   
+    
+}
+label{
+    font-family: Cambria;
+    color:limegreen;
+}
+input#name{
+    width:90%;          /*width of the text box*/
+    border: 2px solid hotpink;
+    border-radius: 3px;
+    padding:4px;
+
+}
+input#submit{
+    background-color:chocolate;
+    text-align: center;
+    cursor: cell;
+    color: darkblue;
+    width:47%;
+    border-radius: 3px;
+    padding:4px;
+    margin-left:65px;
+}
+
